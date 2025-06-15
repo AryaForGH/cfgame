@@ -21,11 +21,12 @@ st.markdown("""
             font-weight: bold;
         }
         .soal-box {
-            background-color: #FFF7D4;
+            background-color: #FFF7D4 !important;
             padding: 20px;
             border-radius: 15px;
             border: 2px dashed #FFD700;
             margin-bottom: 20px;
+            color: #000000 !important;
         }
         .input-box {
             background-color: #FFF;
@@ -44,6 +45,7 @@ st.markdown("""
             margin-bottom: 0px;
             padding: 0.6em 1.2em;
         }
+        
     </style>
 """, unsafe_allow_html=True)
 
@@ -135,7 +137,6 @@ elif st.session_state.page == "game":
     elapsed = int(time.time() - st.session_state.start_time)
     remaining = max(0, 60 - elapsed)
 
-    # Jika waktu habis otomatis lanjut
     if remaining <= 0:
         st.session_state.score_list.append(0)
         if idx < 9:
@@ -147,8 +148,6 @@ elif st.session_state.page == "game":
             go_to("hasil")
         st.stop()
 
-
-    # Tampilkan waktu mundur
     st.markdown(f"""
     <div style="text-align: center; padding: 15px; background-color: #ffeaa7; border-radius: 15px; margin-bottom: 20px;">
         <span style="font-size: 18px;">⏰ <strong>Sisa Waktu:</strong></span><br>
@@ -156,8 +155,6 @@ elif st.session_state.page == "game":
     </div>
     """, unsafe_allow_html=True)
     
-
-    # Jika waktu habis otomatis lanjut
     if remaining == 0:
         st.session_state.score_list.append(0)
         if idx < 9:
