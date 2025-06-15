@@ -1,0 +1,117 @@
+[
+  {
+    "deskripsi": "Aku tinggal di air, punya sirip, dan bisa berenang cepat. Siapakah aku?",
+    "jawaban": "ikan",
+    "kata_kunci": ["air", "sirip", "berenang"]
+  },
+  {
+    "deskripsi": "Aku punya belalai panjang, tubuhku besar, dan aku suka mandi lumpur.",
+    "jawaban": "gajah",
+    "kata_kunci": ["belalai", "besar", "lumpur"]
+  },
+  {
+    "deskripsi": "Aku suka hinggap di bunga, aku punya sayap indah dan tubuh kecil.",
+    "jawaban": "kupu-kupu",
+    "kata_kunci": ["sayap", "bunga", "kecil"]
+  },
+  {
+    "deskripsi": "Aku tinggal di air, punya sirip, dan bisa berenang cepat. Siapakah aku?",
+    "jawaban": "ikan",
+    "kata_kunci": ["air", "sirip", "berenang"]
+  },
+  {
+    "deskripsi": "Tubuhku besar, aku punya belalai, dan suka mandi lumpur.",
+    "jawaban": "gajah",
+    "kata_kunci": ["belalai", "besar", "lumpur"]
+  },
+  {
+    "deskripsi": "Aku bisa terbang di langit dan sering membawa penumpang.",
+    "jawaban": "pesawat",
+    "kata_kunci": ["terbang", "langit", "penumpang"]
+  },
+  {
+    "deskripsi": "Aku bulat, biasanya berwarna oranye, dan digunakan dalam permainan basket.",
+    "jawaban": "bola",
+    "kata_kunci": ["bulat", "oranye", "basket"]
+  },
+  {
+    "deskripsi": "Aku bersinar di siang hari dan sangat panas.",
+    "jawaban": "matahari",
+    "kata_kunci": ["siang", "bersinar", "panas"]
+  },
+  {
+    "deskripsi": "Aku menyala di malam hari dan digantung di langit bersama bintang.",
+    "jawaban": "bulan",
+    "kata_kunci": ["malam", "langit", "bintang"]
+  },
+  {
+    "deskripsi": "Aku kecil, bisa terbang, dan menghisap nektar bunga.",
+    "jawaban": "lebah",
+    "kata_kunci": ["kecil", "terbang", "bunga"]
+  },
+  {
+    "deskripsi": "Aku berwarna hijau, hidup di air, dan pandai melompat.",
+    "jawaban": "katak",
+    "kata_kunci": ["hijau", "air", "lompat"]
+  },
+  {
+    "deskripsi": "Aku sering dipakai menulis di kertas.",
+    "jawaban": "pensil",
+    "kata_kunci": ["menulis", "kertas", "alat"]
+  },
+  {
+    "deskripsi": "Aku tempat menyimpan buku di sekolah.",
+    "jawaban": "tas",
+    "kata_kunci": ["sekolah", "buku", "menyimpan"]
+  },
+  {
+    "deskripsi": "Aku memiliki ekor panjang dan sering mengeong.",
+    "jawaban": "kucing",
+    "kata_kunci": ["ekor", "mengeong", "hewan"]
+  },
+  {
+    "deskripsi": "Aku bisa hidup di kandang, bertelur, dan suaraku kukuruyuk.",
+    "jawaban": "ayam",
+    "kata_kunci": ["telur", "kandang", "kukuruyuk"]
+  },
+  {
+    "deskripsi": "Aku dipakai untuk melihat waktu di pergelangan tangan.",
+    "jawaban": "jam",
+    "kata_kunci": ["waktu", "pergelangan", "tangan"]
+  },
+  {
+    "deskripsi": "Aku bisa menyala, digunakan saat gelap.",
+    "jawaban": "lampu",
+    "kata_kunci": ["gelap", "menyala", "terang"]
+  },
+  {
+    "deskripsi": "Aku memiliki pedal, digunakan untuk berkeliling di jalan kecil.",
+    "jawaban": "sepeda",
+    "kata_kunci": ["pedal", "keliling", "jalan"]
+  },
+  {
+    "deskripsi": "Aku bisa dimakan, rasaku manis, dan tumbuh di pohon pisang.",
+    "jawaban": "pisang",
+    "kata_kunci": ["manis", "pohon", "makan"]
+  },
+  {
+    "deskripsi": "Aku sering digunakan untuk menghapus tulisan pensil.",
+    "jawaban": "penghapus",
+    "kata_kunci": ["hapus", "pensil", "tulisan"]
+  },
+  {
+    "deskripsi": "Aku memiliki sayap indah, tubuhku kecil, dan suka hinggap di bunga.",
+    "jawaban": "kupu-kupu",
+    "kata_kunci": ["sayap", "bunga", "kecil"]
+  },
+  {
+    "deskripsi": "Aku digunakan untuk membaca buku, terdiri dari dua lensa.",
+    "jawaban": "kacamata",
+    "kata_kunci": ["baca", "lensa", "mata"]
+  },
+  {
+    "deskripsi": "Aku hewan tinggi, punya leher panjang, dan makan daun.",
+    "jawaban": "jerapah",
+    "kata_kunci": ["leher", "tinggi", "daun"]
+  }
+]
