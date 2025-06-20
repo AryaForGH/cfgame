@@ -89,7 +89,7 @@ def go_to(page):
 # ========================
 if st.session_state.page == "home":
     st.markdown("<h1 style='text-align: center;'>Siapa Aku? - Game Edukatif CF</h1>", unsafe_allow_html=True)
-    st.image("assets/images/semangka.jpg", use_container_width=True)
+    st.image("assets/images/wp-master-1.png", use_container_width=True)
     st.markdown("""
     Selamat datang di game **Siapa Aku?** 👧👦  
     🧩 Tebak siapa atau apa yang sedang dijelaskan dari petunjuk yang diberikan!
