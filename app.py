@@ -1,6 +1,7 @@
 import streamlit as st
 import json
 import random
+import base64
 from utils.cf_engine import evaluate_answer
 import time
 from streamlit_autorefresh import st_autorefresh
@@ -73,6 +74,12 @@ if "finished" not in st.session_state:
 # ========================
 # Navigasi Sederhana
 # ========================
+def get_audio_base64(file_path):
+    with open(file_path, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+audio_base64 = get_audio_base64("assets/selesai.mp3")
+
 def go_to(page):
     st.session_state.page = page
     st.rerun()
@@ -196,6 +203,11 @@ elif st.session_state.page == "game":
 # ========================
 elif st.session_state.page == "hasil":
     st.balloons()
+    st.markdown(f"""
+        <audio autoplay>
+            <source src="data:audio/mp3;base64,{audio_base64}" type="audio/mpeg">
+        </audio>
+    """, unsafe_allow_html=True)
     st.markdown("## 🌟 Permainan Selesai!")
     st.markdown("### Ini hasil kamu ya:")
 
